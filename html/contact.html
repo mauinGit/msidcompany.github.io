@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        MSID - Contact
+    </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+        rel="stylesheet" />
+    <!-- Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+    <!-- AOS CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <!-- Custom CSS -->
+    <link href="../css/contact.css" rel="stylesheet" />
+    <!-- Navbar CSS -->
+    <link href="../css/navbar.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                MSID
+            </a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler d-md-none" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link" href="layanan.html" id="layananDropdown"
+                            role="button">
+                            Layanan
+                        </a>
+                        <ul aria-labelledby="layananDropdown" class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="layanan.html">
+                                    Konsultasi Transformasi Digital
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="layanan.html">
+                                    Pengembangan Aplikasi Mobile
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="layanan.html">
+                                    UI/UX Design &amp; Prototyping
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container" style="margin-top: 100px; padding-bottom: 3rem;">
+        <div class="row mb-5">
+            <div class="col-12" data-aos="fade-up" data-aos-duration="800">
+                <h1 class="section-title">
+                    Hubungi Kami
+                </h1>
+                <p class="lead">
+                    Kami siap mendengar dan membantu Anda mewujudkan transformasi digital untuk bisnis Anda.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                <div class="contact-info">
+                    <h3 class="mb-4">
+                        Informasi Kontak
+                    </h3>
+                    <div class="contact-item">
+                        <h5>
+                            <i class="bi bi-geo-alt-fill">
+                            </i>
+                            Alamat
+                        </h5>
+                        <p>
+                            JJl. Nusantara No. 123,
+                            <br />
+                            Ogan Ilir, 30862
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <h5>
+                            <i class="bi bi-telephone-fill">
+                            </i>
+                            Telepon
+                        </h5>
+                        <p>
+                            +62 811 7132 211 (WhatsApp)
+                        </p>
+                        <p>
+                            +62 831-6201-3902 (WhatsApp)
+                        </p>
+                        <p>
+                            +62 895-4285-53625 (WhatsApp)
+                        </p>
+                        <p>
+                            +62 896-2537-4665 (WhatsApp)
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <h5>
+                            <i class="bi bi-envelope-fill">
+                            </i>
+                            Email
+                        </h5>
+                        <p>
+                            info@MSID.id
+                        </p>
+                        <p>
+                            support@MSID.id
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <h5>
+                            <i class="bi bi-clock-fill">
+                            </i>
+                            Jam Operasional
+                        </h5>
+                        <p>
+                            Senin - Jumat: 09:00 - 17:00
+                        </p>
+                        <p>
+                            Sabtu: 09:00 - 13:00
+                        </p>
+                    </div>
+                    <div class="social-icons" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                        <a href="https://www.facebook.com/help/668969529866328">
+                            <i class="bi bi-facebook">
+                            </i>
+                        </a>
+                        <a href="https://x.com/i/flow/login?lang=id">
+                            <i class="bi bi-twitter">
+                            </i>
+                        </a>
+                        <a href="https://www.instagram.com/?flo=true">
+                            <i class="bi bi-instagram">
+                            </i>
+                        </a>
+                        <a href="https://id.linkedin.com/ ">
+                            <i class="bi bi-linkedin">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+                    <h3 class="mb-4">
+                        Kirim Pesan
+                    </h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="name">
+                                    Nama Lengkap
+                                </label>
+                                <input class="form-control" id="name" name="from_name"
+                                    placeholder="Masukkan nama lengkap" required="" type="text" />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="email">
+                                    Email (email anda)
+                                </label>
+                                <input class="form-control" id="email" name="reply_to" placeholder="Masukkan email"
+                                    required="" type="email" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="phone">
+                                    Nomor Telepon
+                                </label>
+                                <input class="form-control" id="phone" name="phone" placeholder="Masukkan nomor telepon"
+                                    type="tel" />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="subject">
+                                    Subjek
+                                </label>
+                                <input class="form-control" id="subject" name="subject" placeholder="Subjek pesan"
+                                    required="" type="text" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="service">
+                                Layanan yang Diminati
+                            </label>
+                            <select class="form-select" id="service" name="service" required="">
+                                <option disabled="" selected="">
+                                    Pilih layanan
+                                </option>
+                                <option value="digital-transformation">
+                                    Konsultasi Transformasi Digital
+                                </option>
+                                <option value="mobile-app">
+                                    Pengembangan Aplikasi Mobile
+                                </option>
+                                <option value="ui-ux">
+                                    UI/UX Design &amp; Prototyping
+                                </option>
+                                <option value="other">
+                                    Lainnya
+                                </option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label" for="message">
+                                Pesan
+                            </label>
+                            <textarea class="form-control" id="message" name="message"
+                                placeholder="Tulis pesan Anda di sini" required="" rows="5"></textarea>
+                        </div>
+                        <button class="btn contact-btn" id="submitBtn" type="submit">
+                            Kirim Pesan
+                        </button>
+                        <div class="mt-2" id="statusMessage">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Map Section -->
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="800">
+                    <h2 class="section-title">
+                        Lokasi Kami
+                    </h2>
+                    <div class="map-section" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                        <div id="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3" data-aos="fade-up" data-aos-duration="800"
+                    data-aos-once="false">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                        MSID
+                    </h5>
+                    <p>
+                        Kami hadir untuk Anda dengan dedikasi terhadap kualitas, kami berkomitmen untuk menghadirkan
+                        solusi yang relevan,
+                        berkelanjutan, dan berorientasi pada kebutuhan Anda. Bersama, kita wujudkan perubahan.
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="800" data-aos-once="false">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                        Quick Links
+                    </h5>
+                    <p>
+                        <a class="text-light text-decoration-none" href="home.html">
+                            Home
+                        </a>
+                    </p>
+                    <p>
+                        <a class="text-light text-decoration-none" href="about.html">
+                            About
+                        </a>
+                    </p>
+                    <p>
+                        <a class="text-light text-decoration-none" href="layanan.html">
+                            Services
+                        </a>
+                    </p>
+                    <p>
+                        <a class="text-light text-decoration-none" href="contact.html">
+                            Contact
+                        </a>
+                    </p>
+                    <div class="contact-item mt-3">
+                        <h5>
+                            <i class="bi bi-telephone-fill">
+                            </i>
+                            Telepon
+                        </h5>
+                        <p>
+                            +62 811 7132 211 (WhatsApp)
+                        </p>
+                        <p>
+                            +62 831-6201-3902 (WhatsApp)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="800" data-aos-once="false">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                        Contact
+                    </h5>
+                    <p>
+                        <i class="bi bi-house-door-fill me-2">
+                        </i>
+                        Jl. Nusantara No. 123, Ogan Ilir, 30862
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-fill me-2">
+                        </i>
+                        info@MSID.id
+                        <br />
+                        support@MSID.id
+                    </p>
+                    <p>
+                        <i class="bi bi-phone-fill me-2">
+                        </i>
+                        +62 21 5678 9012
+                    </p>
+                    <div class="contact-item mt-3">
+                        <p>
+                            +62 895-4285-53625 (WhatsApp)
+                        </p>
+                        <p>
+                            +62 896-2537-4665 (WhatsApp)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>
+                        © 2025 MSID. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                        <a class="text-light me-4" href="https://www.facebook.com/help/668969529866328">
+                            <i class="bi bi-facebook">
+                            </i>
+                        </a>
+                        <a class="text-light me-4" href="https://x.com/i/flow/login?lang=id">
+                            <i class="bi bi-twitter">
+                            </i>
+                        </a>
+                        <a class="text-light me-4" href="https://www.instagram.com/?flo=true">
+                            <i class="bi bi-instagram">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    </script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+    <!-- Navbar JS -->
+    <script src="../js/navbar.js">
+    </script>
+    <!-- Custom JS -->
+    <script src="../js/contact.js">
+    </script>
+</body>
+
+</html>
